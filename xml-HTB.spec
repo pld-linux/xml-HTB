@@ -8,6 +8,7 @@ Group:		Networking/Utilities
 Source0:	http://dl.sourceforge.net/xml-htb/%{name}-%{version}.tar.gz
 # Source0-md5:	eb042fa44f0fbd25fcac7c6008be7f07
 URL:		http://sourceforge.net/projects/xml-htb
+BuildRequires:	kdelibs-devel
 BuildRequires:	libxml2-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -17,11 +18,10 @@ up HTB on Linux. It uses xml configuration files. It's easy to use, It
 have a lot of features: multiple depths of classes, configurable leaf,
 u32 and fw filters, configure both input a
 
-%description -n pl
+%description -l pl
 xml-HTB jest narzêdziem do automatycznego generowania skryptów, które
 ustawiaja HTB. U¿ywa plików konfiguracyjnych xml. Jest prosty w
 u¿yciu.
-
 
 %prep
 %setup -q
