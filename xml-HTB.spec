@@ -8,7 +8,6 @@ Group:		Networking/Utilities
 Source0:	http://dl.sourceforge.net/xml-htb/%{name}-%{version}.tar.gz
 # Source0-md5:	eb042fa44f0fbd25fcac7c6008be7f07
 URL:		http://sourceforge.net/projects/xml-htb
-BuildRequires:	kdelibs-devel
 BuildRequires:	libxml2-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
