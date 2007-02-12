@@ -1,6 +1,6 @@
 # TODO: optflags
 Summary:	Tool for automatic generation scripts for HTB
-Summary(pl):	Narzêdzie do automatycznego generowania skryptów dla HTB
+Summary(pl.UTF-8):   NarzÄ™dzie do automatycznego generowania skryptÃ³w dla HTB
 Name:		xml-HTB
 Version:	1.3
 Release:	0.1
@@ -18,11 +18,11 @@ up HTB on Linux. It uses XML configuration files. It's easy to use, It
 have a lot of features: multiple depths of classes, configurable leaf,
 u32 and fw filters...
 
-%description -l pl
-xml-HTB jest narzêdziem do automatycznego generowania skryptów, które
-ustawiaj± HTB. U¿ywa plików konfiguracyjnych w formacie XML. Jest
-prosty w u¿yciu i ma wiele mo¿liwo¶ci: ró¿ne g³êboko¶ci klas,
-konfigurowalne li¶cie, filtry u32 i fw...
+%description -l pl.UTF-8
+xml-HTB jest narzÄ™dziem do automatycznego generowania skryptÃ³w, ktÃ³re
+ustawiajÄ… HTB. UÅ¼ywa plikÃ³w konfiguracyjnych w formacie XML. Jest
+prosty w uÅ¼yciu i ma wiele moÅ¼liwoÅ›ci: rÃ³Å¼ne gÅ‚Ä™bokoÅ›ci klas,
+konfigurowalne liÅ›cie, filtry u32 i fw...
 
 %prep
 %setup -q
