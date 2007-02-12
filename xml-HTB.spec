@@ -1,6 +1,6 @@
 # TODO: optflags
 Summary:	Tool for automatic generation scripts for HTB
-Summary(pl.UTF-8):   Narzędzie do automatycznego generowania skryptów dla HTB
+Summary(pl.UTF-8):	Narzędzie do automatycznego generowania skryptów dla HTB
 Name:		xml-HTB
 Version:	1.3
 Release:	0.1
